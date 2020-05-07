@@ -1,0 +1,56 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: teal;
+    color: white;
+    font-weight: 1.5rem;
+}
+
+.todo-input{
+    border-radius: 25px;
+}
+
+.todo-button{
+    border-radius: 50%;
+    height: 30px;
+    width:30px;
+    align-items: center;
+    justify-self: center;
+    margin-left: 15px;
+}
+
+.todo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.todo-list{
+    min-width: 45%;
+    list-style: none;
+}
+
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.75em;
+}
+
+.delete{
+   color: rgb(0, 0, 0);
+   background-color: rgb(255, 255, 255);
+   margin-left: 15px;
+}
+
+.delete:hover{
+    color: white;
+    background-color: red;
+    border-color: red;
+}
